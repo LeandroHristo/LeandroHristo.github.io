@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leandro Barrial">
+    <title>Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="Imágenes/logo.jpg">
+    <style>
+        table{
+            width: 90%;
+            margin: auto;
+        }
+        thead{
+            background-color: paleturquoise;
+        }
+        tbody{
+            background-color: whitesmoke;
+            
+        }
+        td{
+            border: 1px solid;
+            padding: 10px;
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            background-color: yellow;
+            width: 50%;
+            margin: auto;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body id="inicio">
+    <header data-bs-theme="dark">
+        <div class="text-bg-dark collapse" id="navbarHeader" style="">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4>Sobre mí</h4>
+                <p class="text-body-secondary">¡Hola! Soy Leandro Barrial, un lector aficionado a los libros de acción, fantasía, romance, entre otros... Esta página nació para poder recordar todos los libros que voy leyendo. Si quieres hacer alguna recomendación o ver una reseña de tus libros favoritos en esta página, <a href="contacto.html" class="text-white">¡contáctame!</a></p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4>¡Sígueme en mis Redes!</h4>
+                <nav>
+                  <ul class="list-unstyled">
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                      </svg>
+                      <a href="https://www.instagram.com/leohrist/" target="_blank" class="text-white">Instragram</a>
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M22.675 0h-21.35C.596 0 0 .596 0 1.326v21.348C0 23.404.596 24 1.326 24H12.82v-9.294H9.692V11.31h3.128V8.708c0-3.1 1.893-4.787 4.659-4.787 1.325 0 2.464.099 2.794.143v3.24l-1.917.001c-1.504 0-1.795.715-1.795 1.763v2.309h3.587l-.467 3.396h-3.12V24h6.116C23.404 24 24 23.404 24 22.674V1.326C24 .596 23.404 0 22.675 0z"/>
+                      </svg>
+                      <a href="https://www.facebook.com/people/Leandro-Barrial/pfbid0g5mRwY19jhgY7s9o5hd8u9x4tohUVuC2JytVJwGnFsGoY4Rs69cQ3t1mHt88D8yul/?locale=es_LA" target="_blank" class="text-white">Facebook</a>
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.949.555-2.002.959-3.127 1.184-.896-.959-2.173-1.559-3.594-1.559-2.717 0-4.917 2.201-4.917 4.917 0 .39.045.765.127 1.124-4.084-.205-7.702-2.161-10.125-5.144-.422.722-.664 1.561-.664 2.457 0 1.695.863 3.188 2.173 4.065-.803-.026-1.561-.247-2.224-.616v.061c0 2.367 1.684 4.342 3.918 4.787-.41.111-.844.171-1.29.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.6 3.416-1.68 1.319-3.809 2.105-6.102 2.105-.398 0-.79-.023-1.17-.067 2.189 1.394 4.768 2.212 7.548 2.212 9.057 0 14.009-7.502 14.009-14.009 0-.213 0-.426-.015-.637.961-.695 1.8-1.562 2.462-2.549z"/>
+                      </svg> 
+                      <a href="https://x.com/LiandroHJ" target="_blank" class="text-white">Twitter</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="Imágenes/logo.jpg" alt="" width="5%">
+                    <strong>LYBRERO</strong>
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+        </div>
+    </header>
+
+    <br><br>
+
+    <main>
+        <div class="container" style="background-color: antiquewhite">
+            <br>
+            <h4>Repositorio</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            Título
+                        </td>
+                        <td>
+                            Autor
+                        </td>
+                        <td>
+                            Género
+                        </td>
+                        <td>
+                            Número de páginas
+                        </td>
+                        <td>
+                            Año de publicación
+                        </td>
+                        <td>
+                            Editorial
+                        </td>
+                        <td>
+                            Relacionado
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="enlace1.html">El planeta olvidado I. La liberación</a>
+                        </td>
+                        <td>
+                            Carlos Echevarría
+                        </td>
+                        <td>
+                            Ciencia ficción
+                        </td>
+                        <td>
+                            305
+                        </td>
+                        <td>
+                            2012
+                        </td>
+                        <td>
+                            Torre de papel
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="">El planeta olvidado II. La resistencia</a></li>
+                                <li><a href="">El planeta olvidado III. La odisea</a></li>
+                                <li><a href="">La galaxia escarlata</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="enlace2.html">Los ladrones de sombras</a>
+                        </td>
+                        <td>
+                            Anne Ursu
+                        </td>
+                        <td>
+                            Fantasía
+                        </td>
+                        <td>
+                            400
+                        </td>
+                        <td>
+                            2010
+                        </td>
+                        <td>
+                            Everest    
+                        </td>
+                        <td>
+                            <ul>
+                                <li><a href="">El canto de la sirena</a></li>
+                                <li><a href="">El fuego inmortal</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="enlace3.html">Zanoni o el secreto de los inmortales</a>
+                        </td>
+                        <td>
+                            Edward Bulwer-Lytton
+                        </td>
+                        <td>
+                            Novela
+                        </td>
+                        <td>
+                            496
+                        </td>
+                        <td>
+                            1842
+                        </td>
+                        <td>
+                            Saunders
+                        </td>
+                        <td>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="enlace4.html">Amores tontos</a>
+                        </td>
+                        <td>
+                            Jorge B. Ureta Sandoval
+                        </td>
+                        <td>
+                            Romance
+                        </td>
+                        <td>
+                            148
+                        </td>
+                        <td>
+                            2013
+                        </td>
+                        <td>
+                            Torre de papel
+                        </td>
+                        <td>
+                            <ul>
+                                <li></li>    
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>¡Ayúdame a ampliar esta lista!</h3>
+            <br><br>
+        </div>
+    </main>
+    
+    <br><br>
+
+    <footer class="text-body-secondary py-3">     
+        <div class="container">
+          <p class="mb-1">
+            <a href="#inicio" class="text-white">Volver arriba</a>
+          </p>
+          <h4 style="color: whitesmoke;">Contacto</h4>      
+          <p class="mb-1">&lt;&lt;&lt;<a href="contacto.html" class="text-white">LeandroBarrial</a>&gt;&gt;&gt;</p>
+          <p class="mb-1">Correo: leandrohristo2923@gmail.com</p>
+          <p class="mb-0">&copy 2024 LYBRERO</p>
+          <p class="mb-0">Todos los derechos reservados.</p>
+        </div>
+      </footer>
+</body>
+</html>
