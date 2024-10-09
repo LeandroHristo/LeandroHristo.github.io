@@ -3,6 +3,7 @@ figure{
 }
 figcaption{
     color: aqua;
+    text-align: center;
 }
 .info-list{
     text-align: center;
